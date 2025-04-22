@@ -8,7 +8,7 @@ A continuación se presentan 5 enunciados de consultas basados en las coleccione
 
 Ejemplo de como consultar
 ![image](https://github.com/user-attachments/assets/fba9c9b5-485c-4348-8b71-102dca95e0af)
-
+(El resultado depende en que colección se consulte)
 
 **Consulta MongoDB:**
 ```javascript
