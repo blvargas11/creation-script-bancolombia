@@ -67,7 +67,7 @@ GROUP BY c.tipo_cuenta;
 **Consulta SQL:**
 ```sql
 
-SELECT DISTINCT c.id_cliente
+SELECT DISTINCT c.id_cliente,c.nombre,c.cedula,
 FROM Cliente c
 JOIN Cuenta cu ON c.id_cliente = cu.id_cliente
 JOIN Transaccion t ON cu.num_cuenta = t.num_cuenta
