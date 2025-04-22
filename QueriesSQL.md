@@ -7,6 +7,12 @@
 **Consulta SQL:**
 ```sql
 
+SELECT c.id_cliente, COUNT(c.num_cuenta) AS cantidad_cuentas, SUM(c.saldo) AS saldo_total
+FROM Cuenta c
+GROUP BY c.id_cliente
+HAVING COUNT(c.num_cuenta) > 1
+ORDER BY saldo_total DESC;
+
 ```
 
 ## Enunciado 2: Comparativa entre depósitos y retiros por cliente
@@ -15,6 +21,12 @@
 
 **Consulta SQL:**
 ```sql
+
+SELECT t.num_cuenta,
+       SUM(CASE WHEN t.tipo_transaccion = 'deposito' THEN t.monto ELSE 0 END) AS total_depositos,
+       SUM(CASE WHEN t.tipo_transaccion = 'retiro' THEN t.monto ELSE 0 END) AS total_retiros
+FROM Transaccion t
+GROUP BY t.num_cuenta;
 
 ```
 
@@ -25,6 +37,11 @@
 **Consulta SQL:**
 ```sql
 
+SELECT c.num_cuenta, c.id_cliente, c.tipo_cuenta
+FROM Cuenta c
+LEFT JOIN Tarjeta t ON c.num_cuenta = t.num_cuenta
+WHERE t.id_tarjeta IS NULL;
+
 ```
 
 ## Enunciado 4: Análisis de saldos promedio por tipo de cuenta y comportamiento transaccional
@@ -34,6 +51,13 @@
 **Consulta SQL:**
 ```sql
 
+SELECT c.tipo_cuenta,
+       AVG(c.saldo) AS saldo_promedio
+FROM Cuenta c
+JOIN Transaccion t ON c.num_cuenta = t.num_cuenta
+WHERE t.fecha > CURRENT_DATE - INTERVAL '30 days'
+GROUP BY c.tipo_cuenta;
+
 ```
 
 ## Enunciado 5: Clientes con transferencias pero sin retiros en cajeros
@@ -42,5 +66,19 @@
 
 **Consulta SQL:**
 ```sql
+
+SELECT DISTINCT c.id_cliente
+FROM Cliente c
+JOIN Cuenta cu ON c.id_cliente = cu.id_cliente
+JOIN Transaccion t ON cu.num_cuenta = t.num_cuenta
+WHERE t.tipo_transaccion = 'transferencia'
+AND c.id_cliente NOT IN (
+    SELECT DISTINCT c.id_cliente
+    FROM Cliente c
+    JOIN Cuenta cu ON c.id_cliente = cu.id_cliente
+    JOIN Transaccion t ON cu.num_cuenta = t.num_cuenta
+    WHERE t.tipo_transaccion = 'retiro' AND t.descripcion LIKE '%cajero%'
+);
+
 
 ```
