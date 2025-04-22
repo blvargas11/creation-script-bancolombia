@@ -1,0 +1,432 @@
+[
+    {
+        "_id": "ObjectId('1')",
+        "nombre": "Cliente 1",
+        "cedula": "1098797029677",
+        "correo": "cliente1@email.com",
+        "direccion": "Calle 75 #34-46, Ciudad Barranquilla, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 4774552875,
+                "tipo_cuenta": "corriente",
+                "saldo": 3275358.07,
+                "fecha_apertura": "2022-02-26",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45394957705283100886",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2021-05-05",
+                        "fecha_expiracion": "2029-08-15"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45397772725127250165",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2021-01-30",
+                        "fecha_expiracion": "2028-03-06"
+                    }
+                ]
+            },
+            {
+                "num_cuenta": 7258102820,
+                "tipo_cuenta": "ahorro",
+                "saldo": 278059.89,
+                "fecha_apertura": "2022-06-02",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45393252791930188823",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2022-02-28",
+                        "fecha_expiracion": "2028-08-14"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('2')",
+        "nombre": "Cliente 2",
+        "cedula": "1098710151249",
+        "correo": "cliente2@email.com",
+        "direccion": "Calle 33 #92-91, Ciudad Cartagena, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 6176532378,
+                "tipo_cuenta": "corriente",
+                "saldo": 308971.36,
+                "fecha_apertura": "2020-04-26",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45399397539500018034",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2022-06-25",
+                        "fecha_expiracion": "2029-08-26"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45393901593026967516",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2022-01-20",
+                        "fecha_expiracion": "2029-05-24"
+                    }
+                ]
+            },
+            {
+                "num_cuenta": 2514553869,
+                "tipo_cuenta": "corriente",
+                "saldo": 3264124.18,
+                "fecha_apertura": "2024-04-18",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45391505020799773592",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2022-10-04",
+                        "fecha_expiracion": "2029-08-11"
+                    }
+                ]
+            },
+            {
+                "num_cuenta": 1180608230,
+                "tipo_cuenta": "ahorro",
+                "saldo": 4922455.48,
+                "fecha_apertura": "2020-11-05",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45393177609369982053",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2022-10-26",
+                        "fecha_expiracion": "2028-01-03"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45394343488134385206",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2020-12-10",
+                        "fecha_expiracion": "2029-04-03"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('3')",
+        "nombre": "Cliente 3",
+        "cedula": "1098792428060",
+        "correo": "cliente3@email.com",
+        "direccion": "Calle 81 #57-56, Ciudad Cali, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 1872154218,
+                "tipo_cuenta": "corriente",
+                "saldo": 307651.71,
+                "fecha_apertura": "2021-02-06",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45396731341508623788",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2020-08-28",
+                        "fecha_expiracion": "2027-11-30"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45398590652531636086",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2022-09-05",
+                        "fecha_expiracion": "2030-04-19"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('4')",
+        "nombre": "Cliente 4",
+        "cedula": "1098721872415",
+        "correo": "cliente4@email.com",
+        "direccion": "Calle 32 #23-16, Ciudad Cali, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 2296890372,
+                "tipo_cuenta": "ahorro",
+                "saldo": 725799.55,
+                "fecha_apertura": "2020-07-11",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45396999465791111850",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2022-04-13",
+                        "fecha_expiracion": "2027-04-14"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45395078696543537460",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2022-12-04",
+                        "fecha_expiracion": "2026-06-15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('5')",
+        "nombre": "Cliente 5",
+        "cedula": "1098762195374",
+        "correo": "cliente5@email.com",
+        "direccion": "Calle 23 #76-46, Ciudad Bogot\u00e1, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 1978810078,
+                "tipo_cuenta": "ahorro",
+                "saldo": 3978814.17,
+                "fecha_apertura": "2023-11-29",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45396520442181053739",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2023-03-22",
+                        "fecha_expiracion": "2026-10-20"
+                    }
+                ]
+            },
+            {
+                "num_cuenta": 1248643497,
+                "tipo_cuenta": "ahorro",
+                "saldo": 3607929.15,
+                "fecha_apertura": "2023-07-22",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45398183225674383430",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2020-07-06",
+                        "fecha_expiracion": "2029-04-29"
+                    }
+                ]
+            },
+            {
+                "num_cuenta": 3445142199,
+                "tipo_cuenta": "ahorro",
+                "saldo": 2671329.38,
+                "fecha_apertura": "2022-02-14",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45391368335390403159",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2020-06-01",
+                        "fecha_expiracion": "2026-07-18"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('6')",
+        "nombre": "Cliente 6",
+        "cedula": "1098783492542",
+        "correo": "cliente6@email.com",
+        "direccion": "Calle 94 #74-60, Ciudad Cartagena, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 1037092575,
+                "tipo_cuenta": "corriente",
+                "saldo": 3494889.6,
+                "fecha_apertura": "2022-01-11",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45393724348800534708",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2020-12-17",
+                        "fecha_expiracion": "2029-12-26"
+                    }
+                ]
+            },
+            {
+                "num_cuenta": 3449664821,
+                "tipo_cuenta": "ahorro",
+                "saldo": 3758553.42,
+                "fecha_apertura": "2021-09-16",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45395723261156597015",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2023-01-11",
+                        "fecha_expiracion": "2029-07-12"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45394128285185786464",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2024-01-18",
+                        "fecha_expiracion": "2029-01-30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('7')",
+        "nombre": "Cliente 7",
+        "cedula": "1098775383125",
+        "correo": "cliente7@email.com",
+        "direccion": "Calle 98 #76-38, Ciudad Barranquilla, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 2570255270,
+                "tipo_cuenta": "corriente",
+                "saldo": 545444.83,
+                "fecha_apertura": "2020-09-18",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45397754083069273143",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2022-04-06",
+                        "fecha_expiracion": "2027-06-16"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('8')",
+        "nombre": "Cliente 8",
+        "cedula": "1098711166696",
+        "correo": "cliente8@email.com",
+        "direccion": "Calle 38 #79-23, Ciudad Bogot\u00e1, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 3279073321,
+                "tipo_cuenta": "ahorro",
+                "saldo": 3511378.15,
+                "fecha_apertura": "2022-06-21",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45396590106795643442",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2023-03-30",
+                        "fecha_expiracion": "2029-11-15"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45391009532959535258",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2021-01-02",
+                        "fecha_expiracion": "2027-08-15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('9')",
+        "nombre": "Cliente 9",
+        "cedula": "1098728484319",
+        "correo": "cliente9@email.com",
+        "direccion": "Calle 8 #22-57, Ciudad Barranquilla, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 4441949760,
+                "tipo_cuenta": "corriente",
+                "saldo": 4183438.4,
+                "fecha_apertura": "2024-03-04",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45397049304626584658",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2021-01-16",
+                        "fecha_expiracion": "2028-10-16"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45393690856637106235",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2023-04-11",
+                        "fecha_expiracion": "2029-01-29"
+                    }
+                ]
+            },
+            {
+                "num_cuenta": 3238769473,
+                "tipo_cuenta": "ahorro",
+                "saldo": 1126832.03,
+                "fecha_apertura": "2022-08-31",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45393759411465081314",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2022-06-07",
+                        "fecha_expiracion": "2026-09-24"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45399628538116564846",
+                        "tipo_tarjeta": "credito",
+                        "fecha_emision": "2022-05-09",
+                        "fecha_expiracion": "2028-09-02"
+                    }
+                ]
+            },
+            {
+                "num_cuenta": 6054689223,
+                "tipo_cuenta": "ahorro",
+                "saldo": 525867.13,
+                "fecha_apertura": "2024-03-12",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45394149427574450749",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2023-08-15",
+                        "fecha_expiracion": "2029-10-03"
+                    },
+                    {
+                        "id_tarjeta": 2,
+                        "numero_tarjeta": "45397044656933789256",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2021-10-22",
+                        "fecha_expiracion": "2028-03-11"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "ObjectId('10')",
+        "nombre": "Cliente 10",
+        "cedula": "1098715559402",
+        "correo": "cliente10@email.com",
+        "direccion": "Calle 22 #45-65, Ciudad Cartagena, Colombia",
+        "cuentas": [
+            {
+                "num_cuenta": 3519028273,
+                "tipo_cuenta": "ahorro",
+                "saldo": 1881076.27,
+                "fecha_apertura": "2022-11-15",
+                "tarjetas": [
+                    {
+                        "id_tarjeta": 1,
+                        "numero_tarjeta": "45398512979844157048",
+                        "tipo_tarjeta": "debito",
+                        "fecha_emision": "2023-03-30",
+                        "fecha_expiracion": "2026-07-31"
+                    }
+                ]
+            }
+        ]
+    }
+]

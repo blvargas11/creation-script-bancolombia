@@ -1,0 +1,602 @@
+[
+    {
+        "_id": "ObjectId('1')",
+        "num_cuenta": 5765642624,
+        "fecha": "2024-12-14T20:44:49.000Z",
+        "monto": 1741125.24,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 7863164420
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('2')",
+        "num_cuenta": 7904033683,
+        "fecha": "2024-05-04T20:44:49.000Z",
+        "monto": 107333.26,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('3')",
+        "num_cuenta": 1529809640,
+        "fecha": "2025-02-01T20:44:49.000Z",
+        "monto": 887706.12,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('4')",
+        "num_cuenta": 3977716249,
+        "fecha": "2024-08-01T20:44:49.000Z",
+        "monto": 515441.21,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('2')"
+    },
+    {
+        "_id": "ObjectId('5')",
+        "num_cuenta": 3993541999,
+        "fecha": "2024-12-05T20:44:49.000Z",
+        "monto": 976854.03,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "efectivo"
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('6')",
+        "num_cuenta": 1122674683,
+        "fecha": "2024-08-27T20:44:49.000Z",
+        "monto": 216561.55,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 9851319410
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('7')",
+        "num_cuenta": 6083530007,
+        "fecha": "2024-10-30T20:44:49.000Z",
+        "monto": 1245000.67,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "transferencia"
+        },
+        "cliente_ref": "ObjectId('1')"
+    },
+    {
+        "_id": "ObjectId('8')",
+        "num_cuenta": 7947520763,
+        "fecha": "2025-04-17T20:44:49.000Z",
+        "monto": 1031176.14,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('9')",
+        "num_cuenta": 3111449374,
+        "fecha": "2025-01-11T20:44:49.000Z",
+        "monto": 380130.96,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('1')"
+    },
+    {
+        "_id": "ObjectId('10')",
+        "num_cuenta": 2667020852,
+        "fecha": "2024-06-06T20:44:49.000Z",
+        "monto": 1427155.1,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "transferencia"
+        },
+        "cliente_ref": "ObjectId('1')"
+    },
+    {
+        "_id": "ObjectId('11')",
+        "num_cuenta": 6691636197,
+        "fecha": "2024-08-15T20:44:49.000Z",
+        "monto": 1272923.25,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "efectivo"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('12')",
+        "num_cuenta": 4771518529,
+        "fecha": "2025-03-14T20:44:49.000Z",
+        "monto": 407649.57,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 8349886839
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('13')",
+        "num_cuenta": 1275415397,
+        "fecha": "2024-06-19T20:44:49.000Z",
+        "monto": 1892100.21,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('14')",
+        "num_cuenta": 6257582302,
+        "fecha": "2025-02-16T20:44:49.000Z",
+        "monto": 1184877.21,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "tarjeta"
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('15')",
+        "num_cuenta": 5575394272,
+        "fecha": "2024-09-15T20:44:49.000Z",
+        "monto": 611523.83,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 7660036821
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('16')",
+        "num_cuenta": 8012797861,
+        "fecha": "2025-02-19T20:44:49.000Z",
+        "monto": 641271.61,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('2')"
+    },
+    {
+        "_id": "ObjectId('17')",
+        "num_cuenta": 1566235926,
+        "fecha": "2024-12-06T20:44:49.000Z",
+        "monto": 971223.76,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "transferencia"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('18')",
+        "num_cuenta": 3032453522,
+        "fecha": "2025-03-02T20:44:49.000Z",
+        "monto": 303836.91,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 8958792490
+        },
+        "cliente_ref": "ObjectId('2')"
+    },
+    {
+        "_id": "ObjectId('19')",
+        "num_cuenta": 6261133951,
+        "fecha": "2024-06-16T20:44:49.000Z",
+        "monto": 970199.81,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('2')"
+    },
+    {
+        "_id": "ObjectId('20')",
+        "num_cuenta": 6812912293,
+        "fecha": "2025-03-09T20:44:49.000Z",
+        "monto": 655243.78,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 4216553072
+        },
+        "cliente_ref": "ObjectId('2')"
+    },
+    {
+        "_id": "ObjectId('21')",
+        "num_cuenta": 4847767296,
+        "fecha": "2024-07-21T20:44:49.000Z",
+        "monto": 1173645.79,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "transferencia"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('22')",
+        "num_cuenta": 5980227396,
+        "fecha": "2024-10-03T20:44:49.000Z",
+        "monto": 1177541.36,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('23')",
+        "num_cuenta": 6591581845,
+        "fecha": "2024-05-04T20:44:49.000Z",
+        "monto": 893771.33,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('24')",
+        "num_cuenta": 5117313244,
+        "fecha": "2024-09-19T20:44:49.000Z",
+        "monto": 1174141.44,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "transferencia"
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('25')",
+        "num_cuenta": 1392907162,
+        "fecha": "2024-11-17T20:44:49.000Z",
+        "monto": 553222.44,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('26')",
+        "num_cuenta": 9500890923,
+        "fecha": "2024-10-28T20:44:49.000Z",
+        "monto": 1710940.63,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('1')"
+    },
+    {
+        "_id": "ObjectId('27')",
+        "num_cuenta": 1838224366,
+        "fecha": "2024-08-23T20:44:49.000Z",
+        "monto": 1437666.69,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('2')"
+    },
+    {
+        "_id": "ObjectId('28')",
+        "num_cuenta": 8656473425,
+        "fecha": "2024-08-29T20:44:49.000Z",
+        "monto": 1948001.83,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "transferencia"
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('29')",
+        "num_cuenta": 7022481208,
+        "fecha": "2024-09-20T20:44:49.000Z",
+        "monto": 1849284.19,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('30')",
+        "num_cuenta": 1957836322,
+        "fecha": "2024-06-14T20:44:49.000Z",
+        "monto": 1225213.45,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 8687107217
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('31')",
+        "num_cuenta": 8246502378,
+        "fecha": "2024-12-05T20:44:49.000Z",
+        "monto": 1141569.74,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "tarjeta"
+        },
+        "cliente_ref": "ObjectId('2')"
+    },
+    {
+        "_id": "ObjectId('32')",
+        "num_cuenta": 3824044188,
+        "fecha": "2024-05-29T20:44:49.000Z",
+        "monto": 1253838.25,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 8423896872
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('33')",
+        "num_cuenta": 6238209687,
+        "fecha": "2025-03-26T20:44:49.000Z",
+        "monto": 111593.75,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('34')",
+        "num_cuenta": 8557117676,
+        "fecha": "2025-01-21T20:44:49.000Z",
+        "monto": 624271.42,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('1')"
+    },
+    {
+        "_id": "ObjectId('35')",
+        "num_cuenta": 6050877591,
+        "fecha": "2024-05-02T20:44:49.000Z",
+        "monto": 174622.77,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "transferencia"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('36')",
+        "num_cuenta": 6888793252,
+        "fecha": "2025-02-08T20:44:49.000Z",
+        "monto": 1161524.56,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "efectivo"
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('37')",
+        "num_cuenta": 7751624545,
+        "fecha": "2024-10-28T20:44:49.000Z",
+        "monto": 923923.88,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 3053179407
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('38')",
+        "num_cuenta": 5926875458,
+        "fecha": "2024-06-04T20:44:49.000Z",
+        "monto": 879416.41,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('1')"
+    },
+    {
+        "_id": "ObjectId('39')",
+        "num_cuenta": 7902625995,
+        "fecha": "2024-09-26T20:44:49.000Z",
+        "monto": 1127021.05,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 1002064823
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('40')",
+        "num_cuenta": 7929303019,
+        "fecha": "2024-10-26T20:44:49.000Z",
+        "monto": 1346049.94,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 5566357790
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('41')",
+        "num_cuenta": 6580658090,
+        "fecha": "2025-01-02T20:44:49.000Z",
+        "monto": 1117194.78,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 9611210206
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('42')",
+        "num_cuenta": 4972470997,
+        "fecha": "2024-05-10T20:44:49.000Z",
+        "monto": 71065.91,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 8847663698
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('43')",
+        "num_cuenta": 5142847329,
+        "fecha": "2024-11-17T20:44:49.000Z",
+        "monto": 1636341.78,
+        "tipo_transaccion": "transferencia",
+        "descripcion": "Transferencia de prueba",
+        "detalles_transferencia": {
+            "cuenta_destino": 8069605767
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('44')",
+        "num_cuenta": 8924945875,
+        "fecha": "2024-05-16T20:44:49.000Z",
+        "monto": 1651621.82,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "efectivo"
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('45')",
+        "num_cuenta": 5658718548,
+        "fecha": "2024-07-18T20:44:49.000Z",
+        "monto": 153484.97,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "transferencia"
+        },
+        "cliente_ref": "ObjectId('5')"
+    },
+    {
+        "_id": "ObjectId('46')",
+        "num_cuenta": 9184548914,
+        "fecha": "2024-09-26T20:44:49.000Z",
+        "monto": 774891.14,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('1')"
+    },
+    {
+        "_id": "ObjectId('47')",
+        "num_cuenta": 5960000061,
+        "fecha": "2024-09-22T20:44:49.000Z",
+        "monto": 261555.5,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('3')"
+    },
+    {
+        "_id": "ObjectId('48')",
+        "num_cuenta": 5441621544,
+        "fecha": "2024-10-31T20:44:49.000Z",
+        "monto": 1204556.69,
+        "tipo_transaccion": "deposito",
+        "descripcion": "Deposito de prueba",
+        "detalles_deposito": {
+            "medio_pago": "tarjeta"
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('49')",
+        "num_cuenta": 8633460075,
+        "fecha": "2024-06-11T20:44:49.000Z",
+        "monto": 1362988.75,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "cajero"
+        },
+        "cliente_ref": "ObjectId('4')"
+    },
+    {
+        "_id": "ObjectId('50')",
+        "num_cuenta": 3128592093,
+        "fecha": "2024-04-28T20:44:49.000Z",
+        "monto": 1379354.15,
+        "tipo_transaccion": "retiro",
+        "descripcion": "Retiro de prueba",
+        "detalles_retiro": {
+            "canal": "ventanilla"
+        },
+        "cliente_ref": "ObjectId('1')"
+    }
+]
